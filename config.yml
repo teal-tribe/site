@@ -1,7 +1,7 @@
 baseURL: 'http://tealtri.be/'
 languageCode: 'en-us'
 title: 'Tealtribe'
-theme: papermod
+theme: paper
 copyright: '&#169; 2022 Tealtribe'
 params:
   label:

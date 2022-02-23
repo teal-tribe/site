@@ -1,0 +1,61 @@
+.buttons,
+.main .profile {
+    display: flex;
+    justify-content: center;
+}
+
+.main .profile {
+    align-items: center;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
+    text-align: center;
+}
+
+.profile .profile_inner h1 {
+    padding: 12px 0;
+    color: #616161;
+}
+
+.profile img {
+    display: inline-table;
+    //border-radius: 50%;
+    pointer-events: none;
+}
+
+.buttons {
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.button {
+    /*background: var(--tertiary);*/
+    /*background-image: linear-gradient(135deg, #008080, #616161);*/
+    background: #008080;
+    border-radius: var(--radius);
+    box-shadow: 0 0 13px var(--shadow);
+    margin: 8px;
+    padding: 6px;
+    transition: transform 0.1s;
+}
+
+.button:nth-child(2n) {
+    background: #ffffff;
+}
+
+.button:nth-child(2n) .button-inner {
+    color: #000000;
+}
+
+.button:nth-child(3n) {
+    background: #616161;
+}
+
+.button-inner {
+    padding: 0 8px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
