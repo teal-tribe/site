@@ -1,0 +1,7 @@
+# editor settings
+.vscode
+.idea
+*.vim
+
+# builds
+public/
