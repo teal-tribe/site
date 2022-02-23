@@ -1,0 +1,40 @@
+baseURL: 'http://tealtri.be/'
+languageCode: 'en-us'
+title: 'Tealtribe'
+theme: papermod
+copyright: '&#169; 2022 Tealtribe'
+params:
+  label:
+    text: Tealtribe
+    icon: /images/logo.png
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    title: Let's end loneliness!
+    #subTitle: Let's end loneliness!
+    imageUrl: /images/logo-title.png
+    imageWidth: auto
+    buttons:
+    - name: finder
+      url: 'http://finder.tealtri.be'
+    - name: donate
+      url: '/donate'
+    - name: chat
+      url: 'https://chat.tealtri.be'
+  socialIcons:
+  - name: facebook
+    url: https://www.facebook.com/groups/thetribe.tsfg
+  - name: rss
+    url: /blog/index.xml
+  assets:
+    favicon: /images/logo.png
+menus:
+  main:
+  - name: About
+    url: /about
+  - name: Blog
+    url: /blog
+    #pre: <i class="fa fa-heart"></i>
+  footer:
+  - name: Terms of service
+    url: /terms
