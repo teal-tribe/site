@@ -11,4 +11,6 @@ RUN go install github.com/gohugoio/hugo@${HUGO_VERSION} && \
 
 FROM nginx:latest
 
-COPY --from=builder /build/public/* /var/lib/www/
+RUN rm -rf /usr/share/nginx/html
+
+COPY --from=builder /build/public/ /usr/share/nginx/html
