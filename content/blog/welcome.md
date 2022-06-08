@@ -1,14 +1,14 @@
 ---
 title: "Welcome"
 date: 2022-02-14T20:36:57+01:00
-author: Eli
+author: Job
 ---
 Hey there dear triber!
 Welcome to this tealtribe website, I hope you'll find many friends here and find the validation and the support that you'll need and deserve.
 
 ![profile-photo](/images/blogs/welcome/profile-picture.webp)
 
-I'm Eli, a fellow triber, creator and maintainer of this website.
+I'm Job, a fellow triber, creator and maintainer of this website.
 I wanted to build a place where Tealtribe people could speak censor-free about all the topics that interests us.
 And on top of that I wanted to make it way more easy for tribers to find one another in real life or for specific support (such as a CPCP).
 So I created a "[finder](/finder)" where any tribe member can add their closesed city location along with their socials.
@@ -68,4 +68,4 @@ I'd love to hear from you guys!
 
 Lot's of love to you all.
 
-- Eli
+- Job
