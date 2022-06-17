@@ -8,15 +8,11 @@ steps:
     when:
       event:
         - tag
-    environment:
-      REGISTRY_URL:
-        from_secret: REGISTRY_URL
     settings:
-      registry:
-        from_secret: REGISTRY_URL
+      registry: registry.sporetri.be
       username:
         from_secret: REGISTRY_USERNAME
       password:
         from_secret: REGISTRY_PASSWORD
-      repo: ${REGISTRY_URL}/${DRONE_REPO}
+      repo: registry.sporetri.be/${DRONE_REPO}
       auto_tag: true
