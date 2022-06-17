@@ -1,0 +1,21 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: build
+    image: plugins/docker
+    when:
+      event:
+        - tag
+    environment:
+      REGISTRY_URL:
+        from_secret: REGISTRY_URL
+    settings:
+      registry: ${REGISTRY_URL}
+      username:
+        from_secret: REGISTRY_USERNAME
+      password:
+        from_secret: REGISTRY_PASSWORD
+      repo: ${REGISTRY_URL}/${DRONE_REPO}
+      auto_tag: true
