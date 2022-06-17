@@ -12,7 +12,8 @@ steps:
       REGISTRY_URL:
         from_secret: REGISTRY_URL
     settings:
-      registry: ${REGISTRY_URL}
+      registry:
+        from_secret: REGISTRY_URL
       username:
         from_secret: REGISTRY_USERNAME
       password:
