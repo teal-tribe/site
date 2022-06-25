@@ -24,3 +24,6 @@ In order to login on your phone got to [the chat webpage](https://chat.tealtri.b
 In once logged in you'll be in serveral chats and you can start chatting with your friends.
 
 The finder and the chat work together, if you have shared your location people can see your socials along with a link to your chat.
+
+Hope you'll be able to find one another on here!
+If you have any questions feel free to contact the admin via [chat](https://link.tealtri.be/#/@jobstoit:tealtri.be) or mail [admin@tealtri.be](mailto:admin@tealtri.be).
