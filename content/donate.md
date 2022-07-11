@@ -2,7 +2,7 @@
 title: "Donate"
 ---
 
-Support this site by donating to the Developer and hoster Eli.
+Support this site by donating to the Developer and hoster Job.
 [![paypal](/images/Paypal-button.png)](https://paypal.me/jobstoit)
 
 If instead you'd like to support Teal and her team and her mission we would encourage you to buy from her shop or consider getting Tealswan premium.
