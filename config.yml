@@ -27,6 +27,8 @@ params:
     url: https://www.facebook.com/groups/thetribe.tsfg
   - name: rss
     url: /blog/index.xml
+  - name: github
+    url: https://github.com/teal-tribe
   assets:
     favicon: /images/logo.png
 menus:
